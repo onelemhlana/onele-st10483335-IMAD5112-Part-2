@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:drawingCacheQuality="high"
+    android:padding="16dp"
+    tools:keep="@layout/activity_main">
+
+    <ImageView
+        android:layout_width="395dp"
+        android:layout_height="715dp"
+        android:src="@drawable/sthombe7"
+        app:layout_constrainEnd_toEndOf="parent"
+        app:layout_constrainStart_toStartOf="parent"
+        app:layout_constrainTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="Study smart!! 😊📚"
+        android:textSize="34sp"
+        android:visibility="visible"
+        tools:ignore="HardcodedText"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcomeText"
+        android:layout_marginTop="450dp"
+        android:backgroundTint="#00BCD4"
+        android:text="Start"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText,MissingPrefix,T,TextContrastCheck,VisualLintButtonSize"
+
+    RelativeLayout>
